@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Memoria</title>
+    <link rel="stylesheet" href="juegoMemoria.css">
+    <link rel="icon" href="icono.png">
+</head>
+<body>
+    <h1>Juego de Memoria</h1>
+    <p>¡Tienes 30 segundos para resolverlo!</p>
+    <div class="secciones">
+        <section class="seccion1">
+
+            <table align="center">
+                <tr>
+                    <td><button id="1" onclick="destapar(1)"></button></td>
+                    <td><button id="2" onclick="destapar(2)"></button></td>
+                    <td><button id="3" onclick="destapar(3)"></button></td>
+                    <td><button id="4" onclick="destapar(4)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="5" onclick="destapar(5)"></button></td>
+                    <td><button id="6" onclick="destapar(6)"></button></td>
+                    <td><button id="7" onclick="destapar(7)"></button></td>
+                    <td><button id="8" onclick="destapar(8)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="9" onclick="destapar(9)"></button></td>
+                    <td><button id="10" onclick="destapar(10)"></button></td>
+                    <td><button id="11" onclick="destapar(11)"></button></td>
+                    <td><button id="12" onclick="destapar(12)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="13" onclick="destapar(13)"></button></td>
+                    <td><button id="14" onclick="destapar(14)"></button></td>
+                    <td><button id="15" onclick="destapar(15)"></button></td>
+                    <td><button id="16" onclick="destapar(16)"></button></td>
+                </tr>
+            </table>
+    
+        </section>
+        <section class="seccion2">
+            <div id="aciertos">ACIERTOS: 0</div>
+            <div id="trestante">TIEMPO RESTANTE: 30 seg</div>
+            <div id="movimientos">MOVIMIENTOS: 0</div>
+        </section>
+    </div>
+    <details>
+        <summary>Juego creado por <a href="">Facu Sanchez</a></summary>
+        <p>Este pequeño juego fué creado combinando el maquetado de <b>HTML5</b>, diseño de interfaz con <b>CSS</b> y lógica de ejecución con <b>Javascript</b></p>
+    </details>
+
+    <script src="juegoMemoria.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
